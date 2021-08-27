@@ -9,7 +9,8 @@ class Employee implements Comparable<Employee> {
 	private int empAge;
 
 	private String empName;
-
+	private String empAddress;
+	private long empContactNumber;
 	public int getEmpAge() {
 		return empAge;
 	}
